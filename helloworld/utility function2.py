@@ -7,5 +7,8 @@ def res(name,food,table,beverage):
     beverage=input("Did u need any beverage after food:")
     print(str(name)+" you ordered "+str(food)+ " beverage is " +str(beverage)+" any your table is "+str(table))
 
+def tnk(name):
+    print(name+" thank you")
 rec("Reception")
 res("name","food","table","beveraage")
+tnk("reception")
